@@ -1,6 +1,6 @@
 .wrapper {
   width: 95%;
-  height: 90%;
+  height: 87%;
   position: fixed;
 
   display: flex;
@@ -54,5 +54,12 @@
 @media only screen and (max-width: 500px) {
   .outer {
     left: 90px;
+    width: 9vw;
+    height: 9vh;
   }
+
+  .wrapper > nav > h4 {
+    font-size: 15px;
+  }
+
 }

@@ -36,8 +36,8 @@
     
   .link {
     text-decoration: none;
-    font-size: 10px;
-    width: 70%;
+    font-size: 15px;
+    width: 80%;
     height: 100%;
     border: 1px solid black;
     display: flex;
@@ -48,8 +48,8 @@
 
   .bento {
     text-decoration: none;
-    font-size: 10px;
-    width: 50%;
+    font-size: 15px;
+    width: 70%;
     height: 100%;
     border: 1px solid black;
     display: flex;
@@ -127,17 +127,24 @@
 }
 .bento {
   padding: 5px;
+  scale: 0.8;
 }
 
 }
 
 @media only screen and (max-width: 383px) {
   .link {
-    font-size: 50px; 
     padding: 5px;
 }
 .bento {
   padding: 5px;
 }
 
-}
+ .title {
+    scale: 0.5;
+    transform: translateX(-100px) translateY(-130px);
+    width: 70%;
+  }
+
+
+}    
