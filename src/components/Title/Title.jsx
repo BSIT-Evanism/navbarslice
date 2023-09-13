@@ -40,7 +40,7 @@ export default function Title({ view }) {
           <br />
           <span>with Framer Motion</span>
         </h1>
-        <p>made with ❤️ by evan</p>
+        <p className={styles.float}>made with ❤️ by evan</p>
 
         <div className={styles.socials}>
           <a
@@ -61,7 +61,7 @@ export default function Title({ view }) {
             href="https://bento.me/evansolanoy"
             target="_blank"
           >
-            <div>Or my bento instead</div>
+            <div>Or my bento</div>
           </a>
         </div>
       </div>
