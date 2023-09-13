@@ -11,9 +11,9 @@
   z-index: 10;
 
   .title {
-    font-size: 5rem;
+    font-size: 3rem;
     position: absolute;
-    top: 20vh;
+    top: 15vh;
     left: 5vw;
   }
 
@@ -28,13 +28,13 @@
   position: absolute;
   display: flex;
   top: 50vh;
-  width: 45vw;
-  height: 10vh;
+  width: 40vw;
+  height: 8vh;
   gap: 2rem;
-
+    
   .link {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 10px;
     width: 50%;
     height: 100%;
     border: 1px solid black;
@@ -46,7 +46,7 @@
 
   .bento {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 10px;
     width: 50%;
     height: 100%;
     border: 1px solid black;
@@ -88,4 +88,25 @@
   overflow: hidden;
   border-radius: 100px;
   background: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .socials {
+    top: 60vh;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 10px;
+  }
+
+  .scroll {
+    display: none;
+    font-size: 5px;
+  }
+
+  .notice {
+    overflow: visible;
+    font-size: 10px;
+  }
 }
