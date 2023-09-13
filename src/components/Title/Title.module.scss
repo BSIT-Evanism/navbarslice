@@ -1,0 +1,91 @@
+.wrapper {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 50vw;
+  display: flex;
+  background: white;
+  border-left: 1px solid black;
+  padding-left: 40px;
+  z-index: 10;
+
+  .title {
+    font-size: 5rem;
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+  }
+
+  p {
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+  }
+}
+
+.socials {
+  position: absolute;
+  display: flex;
+  top: 50vh;
+  width: 45vw;
+  height: 10vh;
+  gap: 2rem;
+
+  .link {
+    text-decoration: none;
+    font-size: 25px;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+  }
+
+  .bento {
+    text-decoration: none;
+    font-size: 25px;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.scroll {
+  position: fixed;
+  width: 15vw;
+  height: 5vh;
+  font-size: 20px;
+  left: 37vw;
+  top: 10vh;
+  z-index: 1;
+  border: 1px solid rgb(146, 138, 182);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 100px;
+  background: white;
+}
+
+.notice {
+  position: fixed;
+  width: 15vw;
+  height: 5vh;
+  font-size: 20px;
+  left: 53vw;
+  bottom: 12vh;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 100px;
+  background: white;
+}
